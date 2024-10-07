@@ -1,1 +1,1 @@
-eval "$(wget -qO- https://raw.githubusercontent.com/justintanner/rails-academy/stable/boot.sh)"
+eval "bash <(curl -fsSL https://raw.githubusercontent.com/justintanner/rails-academy/stable/boot.sh || wget -qO- https://raw.githubusercontent.com/justintanner/rails-academy/stable/boot.sh)"
